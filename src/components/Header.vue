@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>ciao</h1>
+    <div class="container-fluid back-color">
+      <h1>eee</h1>
+    </div>
   </div>
 </template>
 
@@ -12,5 +14,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+@import '../style/variables';
+.back-color {
+  background-color: $colorHeader;
+}
 </style>

@@ -1,12 +1,13 @@
 <template>
   <div>
-    
+    <img :src="vinyl.poster" alt="">
   </div>
 </template>
 
 <script>
 export default {
   name: 'Vinyl',
+  props: ['vinyl']
 }
 </script>
 
