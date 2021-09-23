@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="container-fluid back-color">
-      <h1>eee</h1>
+      <div class="row" style="height: 100px;">
+        <div class="col d-flex align-items-center">
+          <img class="p-2" style="height: 80px;" src="@/assets/spotify.png" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,4 +22,5 @@ export default {
 .back-color {
   background-color: $colorHeader;
 }
+
 </style>

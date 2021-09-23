@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <main>
-      <Vinyls /> <!-- Padre -->
+    <main class="container-fluid">
+       <Vinyls /> <!-- Padre -->
     </main>
-    
   </div>
 </template>
 
@@ -23,5 +22,9 @@ export default {
 
 <style lang="scss">
 //Possiamo non inserire .scss perchè è incluso in lang
+@import './style/variables';
 @import './style/generals';
+.container-fluid {
+  background-color: $backgroundMain;
+}
 </style>
