@@ -1,18 +1,24 @@
 <template>
   <div>
-    <div class="container-fluid back-color">
+    <div class="container-fluid back-color" >
       <div class="row" style="height: 100px;">
         <div class="col d-flex align-items-center">
           <img class="p-2" style="height: 80px;" src="@/assets/spotify.png" alt="">
         </div>
       </div>
     </div>
+    <Selector />
   </div>
 </template>
 
 <script>
+import Selector from './Selector.vue'
 export default {
   name: 'Header',
+  components: { 
+    Selector 
+  },
+  
 }
 </script>
 
