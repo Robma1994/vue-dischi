@@ -7,18 +7,12 @@
         </div>
       </div>
     </div>
-    <Selector />
   </div>
 </template>
 
 <script>
-import Selector from './Selector.vue'
 export default {
-  name: 'Header',
-  components: { 
-    Selector 
-  },
-  
+  name: 'Header'  
 }
 </script>
 
