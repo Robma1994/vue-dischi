@@ -27,6 +27,7 @@ export default {
   height: 270px;
   background-color: $backgroundContVinyl;
   margin-left: 15px;
+  margin: 30px 15px 30px 0;
     img {
     width: 130px;
     height: 140px;
